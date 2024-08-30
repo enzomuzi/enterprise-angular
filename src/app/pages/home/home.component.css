@@ -1,0 +1,29 @@
+.text-content {
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: bold;
+  margin: 50px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+}
+
+.grid {
+  margin: 20px;
+}
