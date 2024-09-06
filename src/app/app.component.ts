@@ -6,14 +6,17 @@ import { FooterComponent } from "./components/footer/footer.component";
 import { HomeComponent } from './pages/home/home.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { LoginComponent } from './components/login/login.component';
+
+
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, HeaderMenuComponent, FeedbackComponent, FooterComponent, HomeComponent, SignupComponent, AboutusComponent, CarouselComponent]
+    imports: [RouterOutlet, HeaderMenuComponent, FeedbackComponent, FooterComponent, HomeComponent, SignupComponent, AboutusComponent, CarouselComponent, LoginComponent]
 })
 export class AppComponent {
   title = 'ProjetoPessoal';

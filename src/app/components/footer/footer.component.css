@@ -1,4 +1,19 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.matToolbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #212121;
+  color: #fff;
+}
+
 p {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
 }

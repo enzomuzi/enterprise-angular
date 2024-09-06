@@ -6,7 +6,8 @@ import { RouterModule } from '@angular/router';
 import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 
 import {} from '@angular/common/http';
-import { CarouselComponent } from '../../carousel/carousel.component';
+import { CarouselComponent } from '../../components/carousel/carousel.component';
+
 
 @Component({
   selector: 'app-home',

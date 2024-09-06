@@ -1,13 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { NzCarouselModule } from 'ng-zorro-antd/carousel';
 
 @Component({
   selector: 'app-carousel',
   standalone: true,
-  imports: [NzCarouselModule],
+  imports: [CommonModule],
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css'],
+  styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
-  array = [1, 2, 3, 4];
+
 }

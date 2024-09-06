@@ -1,29 +1,16 @@
-.text-content {
-  text-align: center;
-  justify-content: center;
-  margin: 100px;
-}
-
-h1 {
+.content h1 {
   font-size: 36px;
   font-weight: bold;
   color: #333;
+  margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
   font-family: Helvetica;
 }
 
-p {
+.content p {
   font-size: 18px;
   color: #666;
   text-align: center;
   font-family: Arial;
-}
-
-.content {
-  margin: 20px;
-}
-
-.grid {
-  margin: 20px;
 }
