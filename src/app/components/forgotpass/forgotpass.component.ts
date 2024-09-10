@@ -10,16 +10,16 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
 @Component({
   standalone: true,
   imports: [
-    NzButtonModule, 
-    NzModalModule, 
+    NzButtonModule,
+    NzModalModule,
     NzFormModule,
     NzInputModule,
     NzCheckboxModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
   ],
   selector: 'app-forgotpass',
-  templateUrl: './forgotpass.component.html'
+  templateUrl: './forgotpass.component.html',
 })
 export class ForgotpassComponent {
   isVisible = false;

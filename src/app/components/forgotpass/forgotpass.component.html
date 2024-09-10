@@ -1,14 +1,23 @@
-
-    <button nz-button nzType="primary" (click)="showModal()">
-      <span>Forgot password</span>
-    </button>
-    <nz-modal
-      [(nzVisible)]="isVisible"
-      nzTitle="Modal Title"
-      (nzOnCancel)="handleCancel()"
-      (nzOnOk)="handleOk()"
-      [nzOkLoading]="isOkLoading"
-    >
-      <p *nzModalContent>Modal Content</p>
-    </nz-modal>
-  
+<button nz-button (click)="showModal()">
+  <span>Forgot password</span>
+</button>
+<nz-modal
+  [(nzVisible)]="isVisible"
+  (nzOnCancel)="handleCancel()"
+  nzTitle="Insira o seu usário abaixo:"
+  (nzOnOk)="handleOk()"
+  [nzOkLoading]="isOkLoading"
+>
+  <div *nzModalContent>
+    <nz-form-control nzErrorTip="Please input your username!">
+      <nz-input-group nzPrefixIcon="user">
+        <input
+          type="text"
+          nz-input
+          formControlName="userName"
+          placeholder="Username"
+        />
+      </nz-input-group>
+    </nz-form-control>
+  </div>
+</nz-modal>
